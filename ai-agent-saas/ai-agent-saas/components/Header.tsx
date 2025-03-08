@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import AgentPulse from "./AgentPulse";
+// import AgentPulse from "../../components/AgentPulse";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
+import AgentPulse from "./AgentPulse";
 
 function Header() {
   return (

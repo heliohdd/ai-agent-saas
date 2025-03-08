@@ -5,8 +5,9 @@ import {
   Sparkles,
   Video,
 } from "lucide-react";
-import AgentPulse from "./components/AgentPulse";
-import YoutubeVideoForm from "./components/YoutubeVideoForm";
+import AgentPulse from "../components/AgentPulse";
+import YoutubeVideoForm from "@/components/YoutubeVideoForm";
+// import YoutubeVideoForm from "./components/YoutubeVideoForm";
 
 const steps = [
   {
