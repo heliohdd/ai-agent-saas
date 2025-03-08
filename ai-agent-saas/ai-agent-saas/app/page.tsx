@@ -6,7 +6,7 @@ import {
   Video,
 } from "lucide-react";
 import AgentPulse from "./components/AgentPulse";
-import { title } from "process";
+import YoutubeVideoForm from "./components/YoutubeVideoForm";
 
 const steps = [
   {
@@ -98,7 +98,7 @@ export default function Home() {
               transcription, and insights. Get started in seconds.
             </p>
 
-            {/* YouTube video form */}
+            <YoutubeVideoForm />
           </div>
         </div>
       </section>
