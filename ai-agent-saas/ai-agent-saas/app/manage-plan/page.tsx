@@ -1,4 +1,4 @@
-import PricingCard from "@/components/LivroSaaS/pricing-card";
+import SchematicComponent from "@/components/schematic/SchematicComponent";
 
 function ManagePlan() {
   return (
@@ -9,8 +9,7 @@ function ManagePlan() {
       </p>
 
       <div className="flex flex-col items-center"></div>
-      <PricingCard />
-      {/* <SchematicComponent componentId="cmpn_4ShecskXt6P" /> */}
+      <SchematicComponent componentId="cmpn_KsHUMbZDBqc" />
     </div>
   );
 }
